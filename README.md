@@ -12,8 +12,8 @@ Then run `library(holepunch)` to import the functions we'll need.
 ## Create Description file
 Create a template Description file using holepunch (filling in the strings with something more meaningful):
 ```{r}
-write_compendium_description(package = "Your compendium name", 
-                             description = "Your compendium description")
+write_compendium_description(package = "my_great_package", 
+                             description = "This package is really great.")
 ```
 Open the new Description file and inspect it. Note that the dependencies in the Rmd file (from library() calls) have automatically been added. Fill in the other fields which are currently filled with only placeholder information, e.g. title and author (you don't have to include your ORCID if you don't want to).
 

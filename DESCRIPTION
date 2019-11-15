@@ -1,0 +1,18 @@
+Type: Compendium
+Package: my_great_package
+Title: This Package Does So Much and Its Really Great
+Version: 0.0.1
+Authors@R: 
+    person(given = "Jonathan",
+           family = "Nicholas",
+           role = c("aut", "cre"),
+           email = "jonathan.nicholas@columbia.edu")
+Description: This package is really great.
+License: CC
+Depends: 
+    rmarkdown,
+    tidyverse,
+    tm,
+    topicmodels
+Encoding: UTF-8
+LazyData: true
